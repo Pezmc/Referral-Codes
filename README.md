@@ -1,24 +1,11 @@
-# README
+# Usage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+See:
 
-Things you may want to cover:
+https://referral-codes.herokuapp.com
 
-* Ruby version
+Either add a code, or view a random code.
 
-* System dependencies
+# Setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Running Ruby on Rails with Postgres.
