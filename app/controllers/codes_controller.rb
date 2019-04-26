@@ -5,7 +5,7 @@ class CodesController < ApplicationController
   end
 
   def random
-    @code = Code.order(count: :desc).order("RANDOM()").first
+    @code = Code.order(visits: :desc).order("RANDOM()").first
     @code.increment!(:visits) if @code
 
     render :show
