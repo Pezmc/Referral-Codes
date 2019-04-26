@@ -10,6 +10,16 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <%= yield %>
+
+        <div class="d-flex justify-content-center">
+          <%= link_to 'Get a random Referral Code', random_codes_path, class: 'button' %>
+
+          <%= link_to 'Add your Referral Code', new_code_path, class: 'button btn-transparent' %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

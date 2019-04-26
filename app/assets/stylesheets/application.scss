@@ -1,0 +1,88 @@
+@import "bootstrap";
+
+body {
+  background-color: #5b5b5b;
+  font-family: Gotham Medium,system,sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #eee;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url(asset_path("main-hero.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+}
+
+#error_explanation {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 50px;
+  margin: 8px;
+  padding: 22px 42px;
+}
+
+input {
+  border-radius: 100px;
+  border: 3px solid transparent;
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 8px;
+  padding: 11px 42px;
+  text-align: center;
+  width: 300px;
+}
+
+a.button, input.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 3px solid transparent;
+  color: #222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Gotham Medium,system,sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 8px;
+  padding: 11px 42px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.15s, 0.15s;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition: background-color .15s ease-in-out,color .15s ease-in-out;
+  width: 300px;
+}
+
+a.btn-transparent {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.code {
+  font-size: 32px;
+}
+
+.code a {
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}

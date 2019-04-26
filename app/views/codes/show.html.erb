@@ -1,11 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<% if @code %>
-	<%= @code.code %>
-<% else %>
-	No codes found
-<% end %>
 
-<%= link_to 'Get a new random Referral Code', random_codes_path %>
-
-<%= link_to 'Add your Referral Code', new_code_path %>
+<div class="d-flex justify-content-center mb-5 code">
+  <% if @code %>
+    <a href="<%= @code.code %>"><%= @code.code %></a>
+  <% else %>
+  	No codes found
+  <% end %>
+</div>
